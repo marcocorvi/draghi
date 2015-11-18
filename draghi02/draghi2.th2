@@ -1,0 +1,33 @@
+encoding  utf-8
+
+
+  input "draghi2-1p.th2"
+  input "draghi2-1s.th2"
+  # input "draghi2-xx0.th2"
+  input "draghi2-2p.th2"
+  input "draghi2-2s.th2"
+  # input "draghi2-xx1.th2"
+  # input "draghi2-xx2.th2"
+
+  map mp1 -proj plan
+     draghi2-1p
+  endmap
+  map mp2 -proj plan
+    draghi2-2p
+  endmap
+  map mp -proj plan
+    mp1
+    mp2 [0 50 m] below
+  endmap
+
+  map ms1 -proj extended
+    draghi2-1s
+  endmap
+  map ms2 -proj extended
+    draghi2-2s
+  endmap
+  map ms -proj extended
+    ms1
+    ms2
+  endmap
+

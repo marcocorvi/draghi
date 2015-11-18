@@ -1,0 +1,15 @@
+encoding utf-8
+
+# 2014.05.17 created by TopoDroid v. 2.2.5
+
+scrap draghi2-xx1 -projection none -scale [0 0 1 0 0.0 0.0 1 0.0 m]
+
+line section
+  250.00 -600.00
+  750.00 -600.00
+endline
+
+
+
+
+endscrap

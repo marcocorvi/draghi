@@ -1,0 +1,42 @@
+encoding  utf-8
+
+
+source draghi.th
+
+input thconfig.layout
+
+# ------------------------------------------------------
+# UNCOMMENT THESE TO CREATE THE PDF MAPS
+#
+select mp@draghi
+select ms@draghi
+
+export map -proj plan -o draghi-p.pdf \
+  -layout-scale 1 500 \
+  -layout-symbol-hide line survey \
+  -layout-symbol-hide point station \
+  -layout-color map-fg altitude \
+  -layout fonts \
+  -layout-map-header 10 90 nw \
+  -layout-language it
+
+export map -proj extended -o draghi-s.pdf \
+  -layout-scale 1 500 \
+  -layout-symbol-hide line survey \
+  -layout-symbol-hide point station \
+  -layout-color map-fg altitude \
+  -layout fonts \
+  -layout-map-header 20 20 sw \
+  -layout-language it \
+  -layout-grid off \
+  -layout-grid-size 100 100 100 m
+
+# ------------------------------------------------------
+# UNCOMMENT THIS TO CREATE THE 3D MODEL
+#
+# export model -o draghi.lox
+
+# ------------------------------------------------------
+# UNCOMMENT THIS TO CREATE THE SQL FOR THE DATABASE
+#
+# export database -o draghi.sql

@@ -1,0 +1,23 @@
+encoding  utf-8
+
+
+source draghi12.th
+
+input /home/ingrigna/biblio/THERION-2/thconfig
+
+select mp@draghi12
+select ms@draghi12
+
+export map -proj plan -o draghi12-p.pdf \
+  -layout-symbol-hide line survey \
+  -layout-symbol-show point station \
+  -layout-debug station-names 
+
+export map -proj extended -o draghi12-s.pdf \
+  -layout-symbol-hide line survey \
+  -layout-symbol-show point station \
+  -layout-debug station-names 
+
+export map -proj extended -o s.xvi -layout-scale 1 40
+
+export map -proj plan -o p.xvi -layout-scale 1 40

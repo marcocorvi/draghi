@@ -1,0 +1,11 @@
+
+
+  input "zz-1p.th2"
+  input "zz-1s.th2"
+
+  map mp -proj plan
+     zz-1p
+  endmap
+  map ms -proj extended
+     zz-1s
+  endmap

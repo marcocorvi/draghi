@@ -1,0 +1,106 @@
+encoding  utf-8
+##XTHERION## xth_me_area_adjust -136.0 -868.0 1144.0 144.0
+##XTHERION## xth_me_area_zoom_to 50
+
+# 2015.10.03 created by TopoDroid v. 2.6.1f
+
+#P  user label air-draught blocks breakdown-choke clay continuation crystal curtain danger debris dig disc entrance flowstone gradient helictite moonmilk narrow-end paleo-material pebbles pillar popcorn sand soda-straw stalactite water water-flow pendant section
+#L  user wall arrow border ceiling-meander chimney contour fault floor-meander overhang pit wall:presumed rock-border section
+#A  user water blocks clay debris ice pebbles sand snow
+
+
+
+
+scrap abc-4p -projection plan -scale [0 0 100 0 0 0 1 0 m]
+
+line wall -id p4bx
+  102.0 -526.0
+  114.0 -534.0
+  134.0 -536.0
+  158.0 -532.0
+  173.95 -546.88
+  194.63 -566.73
+  211.73 -586.87
+  246.54 -585.67
+  272.56 -591.07
+  288.31 -612.8
+  309.8 -638.77
+  337.0 -655.28
+  364.25 -653.71
+  394.67 -652.95
+  420.99 -665.33
+  444.46 -679.82
+  476.01 -676.65
+  507.85 -665.81
+  539.56 -661.34
+  567.99 -666.14
+  596.63 -668.83
+  624.17 -669.66
+  668.0 -670.0
+  701.67 -690.27
+endline
+
+line arrow
+  580.0 -596.0
+  682.0 -616.0
+endline
+
+line wall -id p4tx
+  665.04 -550.55
+  628.0 -526.0
+  575.29 -518.07
+  540.93 -515.23
+  505.55 -522.79
+  478.98 -530.85
+  455.31 -519.26
+  432.79 -501.4
+  416.01 -480.26
+  389.66 -474.84
+  360.84 -471.15
+  334.33 -455.88
+  314.76 -435.69
+  293.04 -421.93
+  262.78 -416.98
+  233.44 -414.19
+  201.47 -409.6
+  184.0 -402.0
+  162.0 -396.0
+  138.0 -392.0
+endline
+
+line wall -id p4sx
+  1006.0 -564.0
+  976.0 -574.0
+  936.0 -578.0
+  902.28 -565.32
+  870.98 -567.57
+  843.81 -573.33
+  812.03 -575.78
+  777.71 -572.4
+  748.35 -567.52
+  719.49 -563.61
+  686.9 -557.14
+  665.04 -550.55
+endline
+
+line wall -id p4sx2
+  701.67 -690.27
+  724.07 -709.59
+  747.72 -720.82
+  781.19 -718.45
+  812.88 -712.58
+  846.73 -715.67
+  876.52 -720.43
+  905.87 -720.43
+  952.0 -730.0
+endline
+
+point 499.86 -599.88 station -name "26"
+
+point 622.15 -409.65 station -name "23"
+
+point 873.89 -658.94 station -name "24"
+
+endscrap
+
+

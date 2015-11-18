@@ -1,0 +1,11 @@
+
+  input "draghi5-1p.th2"
+  input "draghi5-1s.th2"
+
+  map mp -proj plan
+    draghi5-1p
+  endmap
+  map ms -proj extended
+    draghi5-1s
+  endmap
+

@@ -1,0 +1,144 @@
+encoding  utf-8
+
+layout colors
+  symbol-color point pebbles [78 39 8]
+  symbol-color point debris  [67 31 4]
+  symbol-color point blocks  [40 16 2]
+  symbol-color point water-flow [0 0 100]
+  symbol-color point air-draught [20 80 100]
+  symbol-color point entrance [100 20 20]
+
+  symbol-color line rock-border [40 16 2]
+  symbol-color line rock-edge   [67 31 4]
+
+  symbol-color area pebbles [78 39 8]
+  symbol-color area debris  [67 31 4]
+  symbol-color area blocks  [40 16 2]
+  symbol-color area water   [0 0 100]
+
+  # symbol-assign area pebbles AUT
+  symbol-assign area debris AUT
+  # symbol-assign area blocks AUT
+  symbol-assign point blocks AUT
+
+  symbol-assign line wall:debris AUT
+  symbol-assign line wall:blocks AUT
+
+  code mpost
+
+    def_transparent_rgb(tr_brown, 0.67, 0.31, 0.04);
+
+    def a_u_trbrown(expr P) =
+      T := identity;
+      thfill P withtransparentcolor tr_brown;
+    enddef;
+
+    def a_u_brown(expr P) =
+      T := identity;
+      thfill P withcolor (0.48, 0.25, 0.02);
+    enddef;
+
+  endcode
+
+endlayout
+
+layout fonts
+  code metapost
+    \fonts_setup( 6, 8, 10, 12, 14 );
+  endcode
+
+  code tex-map
+    \legendtextheadersize={\size[32]}
+    \legendtextsectionsize={\size[24]}
+    \legendtextsize={\size[18]}
+    \legendtextcolor={\color [33 33 33]}
+  endcode
+endlayout
+
+layout no_topo
+   code tex-map
+     \cavelength={}
+     \cavedepth={}
+   endcode
+endlayout
+
+layout base200
+  language it
+  scale 1 200 
+  scale-bar 10 m 
+  color map-fg 90 
+  map-comment "Scala 1:200"
+  grid off
+endlayout
+
+layout base200nc
+  scale 1 200 
+  map-comment "Scala 1:200"
+endlayout
+
+layout base500
+  scale 1 500 
+  map-comment "Scala 1:500"
+endlayout
+
+layout base1000
+  scale 1 1000
+  map-comment "Scala 1:1000"
+endlayout
+
+layout default
+  copy colors
+  copy fonts
+  color map-fg 90 
+  language it
+  grid off 
+  statistics topo off
+  map-header 0 0 n 
+  symbol-hide group centerline
+endlayout
+
+layout empty_header
+  copy colors
+  copy fonts
+  code tex-map
+      \legendtitle={}
+      \cavename={}
+      \scalebarfalse
+      \cavelengthtitle={}
+      \cavelength={}
+      \cavedepthtitle={}
+      \cavedepth={}
+  endcode
+  statistics topo off
+  # map-comment "Sezione"
+  grid off
+  color map-bg transparent
+  color map-fg 90 
+  symbol-hide group centerline
+endlayout
+
+layout no_north
+  code metapost
+    def s_northarrow (expr rot) =
+        T:=identity scaled 0.4 rotated -rot;
+    enddef;
+  endcode
+endlayout
+
+layout pianta
+  copy default
+  map-image 0 200 s ext.pdf
+  map-comment "Pianta - Scala 1:200"
+endlayout
+
+layout debug
+  # debug on
+  symbol-show point station
+  debug station-names 
+endlayout
+
+layout xvi
+  copy default
+  sketches on
+endlayout
+

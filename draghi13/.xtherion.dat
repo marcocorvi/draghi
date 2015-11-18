@@ -1,0 +1,20 @@
+set xth(ctrl,cp,datlist) {}
+xth_cp_data_tree_insert 1 {} 0   "" "" "length: 234.22m (surface 0.00m, duplicated 0.00m)\nvertical range: 143.99m (from 0@draghi13 at 0.00m to 34@draghi13 at -143.99m)\nnorth-south range: 25.94m (from 23@draghi13 at 23.64m to 3@draghi13 at -2.30m)\neast-west range: 26.10m (from 0@draghi13 at 0.00m to 30@draghi13 at -26.10m)\nnumber of shots: 168\nnumber of stations: 169"
+xth_cp_data_tree_insert 22 1 1 draghi13 draghi13 "draghi13" "draghi13" "length: 234.22m (surface 0.00m, duplicated 0.00m)\nvertical range: 143.99m (from 0@draghi13 at 0.00m to 34@draghi13 at -143.99m)\nnorth-south range: 25.94m (from 23@draghi13 at 23.64m to 3@draghi13 at -2.30m)\neast-west range: 26.10m (from 0@draghi13 at 0.00m to 30@draghi13 at -26.10m)\nnumber of shots: 168\nnumber of stations: 169"
+xth_cp_data_tree_create
+set xth(ctrl,cp,maplist) {}
+xth_cp_map_tree_insert projection 0 p1 {} 0 plan {} {} {}
+xth_cp_map_tree_insert projection 0 p2 {} 0 extended {} {} {}
+xth_cp_map_tree_insert map 0 330X1 p1 1 mp mp@draghi13 "" ""
+xth_cp_map_tree_insert map 1 326X1 330X1 2 mp4 mp4@draghi13 "" ""
+xth_cp_map_tree_insert map 1 327X1 330X1 2 mp3 mp3@draghi13 "" ""
+xth_cp_map_tree_insert map 1 329X1 330X1 2 mp2 mp2@draghi13 "" ""
+xth_cp_map_tree_insert map 1 328X1 330X1 2 mp1 mp1@draghi13 "" ""
+xth_cp_map_tree_insert map 0 334X1 p2 1 ms ms@draghi13 "" ""
+xth_cp_map_tree_insert map 1 332X1 334X1 2 ms1 ms1@draghi13 "" ""
+xth_cp_map_tree_insert map 1 333X1 334X1 2 ms2 ms2@draghi13 "" ""
+xth_cp_map_tree_create
+xth_cp_comp_stat 234 6
+set xth(th_exit_state) 2
+set xth(th_exit_number) 1405699475
+

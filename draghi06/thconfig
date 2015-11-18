@@ -1,0 +1,31 @@
+encoding  utf-8
+
+
+source draghi6.th
+
+input /home/ingrigna/biblio/THERION-2/thconfig
+
+select mp@draghi6
+select ms@draghi6
+
+export map -proj plan -o draghi6-p.pdf \
+  -layout-symbol-hide line survey \
+  -layout-symbol-show point station
+
+export map -proj extended -o draghi6-s.pdf \
+  -layout-symbol-hide line survey \
+  -layout-symbol-show point station
+
+export map -proj extended -o s.xvi -layout-scale 1 40
+
+export map -proj plan -o p.xvi -layout-scale 1 40
+
+#export map -proj extended -o x.pdf \
+#  -layout empty_header \
+#  -layout-symbol-hide point station
+
+#export map -proj plan -o draghi4.pdf \
+#  -layout base200 \
+#  -layout default \
+#  -layout-symbol-hide point station \
+#  -layout-map-image 80 -40 n x.pdf

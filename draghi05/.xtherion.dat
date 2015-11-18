@@ -1,0 +1,14 @@
+set xth(ctrl,cp,datlist) {}
+xth_cp_data_tree_insert 1 {} 0   "" "" "length: 52.97m (surface 0.00m, duplicated 0.00m)\nvertical range: 27.58m (from 11@draghi5 at 21.89m to 2@draghi5 at -5.69m)\nnorth-south range: 10.93m (from 11@draghi5 at 8.63m to 2@draghi5 at -2.30m)\neast-west range: 35.24m (from 1@draghi5 at 0.00m to 11@draghi5 at -35.24m)\nnumber of shots: 92\nnumber of stations: 93"
+xth_cp_data_tree_insert 24 1 1 draghi5 draghi5 "Ghiro" "Ghiro" "length: 52.97m (surface 0.00m, duplicated 0.00m)\nvertical range: 27.58m (from 11@draghi5 at 21.89m to 2@draghi5 at -5.69m)\nnorth-south range: 10.93m (from 11@draghi5 at 8.63m to 2@draghi5 at -2.30m)\neast-west range: 35.24m (from 1@draghi5 at 0.00m to 11@draghi5 at -35.24m)\nnumber of shots: 92\nnumber of stations: 93"
+xth_cp_data_tree_create
+set xth(ctrl,cp,maplist) {}
+xth_cp_map_tree_insert projection 0 p1 {} 0 plan {} {} {}
+xth_cp_map_tree_insert projection 0 p2 {} 0 extended {} {} {}
+xth_cp_map_tree_insert map 1 132X1 p1 1 mp mp@draghi5 "" ""
+xth_cp_map_tree_insert map 1 133X1 p2 1 ms ms@draghi5 "" ""
+xth_cp_map_tree_create
+xth_cp_comp_stat 53 2
+set xth(th_exit_state) 2
+set xth(th_exit_number) 1400701251
+
