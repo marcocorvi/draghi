@@ -10,6 +10,7 @@ survey draghi19 -title "draghi19"
     team "M. Corvi"
     team "S. Calleris"
     data normal from to length compass clino
+    declination 2.20 degrees
     extend left
     0 - 2.37 252.0 89.1
     0 - 1.12 308.4 2.3
@@ -86,6 +87,7 @@ survey draghi19 -title "draghi19"
     team "M. Corvi"
     team "R. Uries"
     data normal from to length compass clino
+    declination 2.20 degrees
     4 - 4.42 135.5 39.4
     4 - 1.01 132.1 13.3
     extend left
