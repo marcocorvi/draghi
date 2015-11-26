@@ -1,0 +1,5 @@
+surface
+  cs EPSG:3003 
+  bitmap Sumbra-geo.jpg [0 1181 1601000 4883000 1181 0 1603000 4881000]
+  input Sumbra.grid
+endsurface
