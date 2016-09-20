@@ -11,14 +11,14 @@ input thconfig.layout
 select mp@draghi
 select ms@draghi
 
-export map -proj plan -o draghi-p.pdf \
-  -layout-scale 1 500 \
-  -layout-symbol-hide line survey \
-  -layout-symbol-hide point station \
-  -layout-color map-fg altitude \
-  -layout fonts \
-  -layout-map-header 10 90 nw \
-  -layout-language it
+# export map -proj plan -o draghi-p.pdf \
+#   -layout-scale 1 500 \
+#   -layout-symbol-hide line survey \
+#   -layout-symbol-hide point station \
+#   -layout-color map-fg altitude \
+#   -layout fonts \
+#   -layout-map-header 10 90 nw \
+#   -layout-language it
 
 export map -proj extended -o draghi-s.pdf \
   -layout-scale 1 500 \

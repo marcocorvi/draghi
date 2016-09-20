@@ -61,14 +61,20 @@ join s2f@draghi2:0 s3f@draghi18:5
 join draghi16-1p@draghi16 draghi19-1p@draghi19 -count 2
 join draghi16-1s@draghi16 draghi19-1s@draghi19 -count 2
 
+# FIXME
+# join p1@draghi20 draghi10-1p@draghi10
+# join s1@draghi20 draghi10-1s@draghi10
+
 map mp1_11 -proj plan
   mp@draghi1
   mp@draghi11
+  mp@draghi21
 endmap
 
 map ms1_11 -proj extended
   ms@draghi1
   ms@draghi11
+  ms@draghi21
 endmap
 
 
@@ -99,11 +105,13 @@ endmap
 map mp5_10 -proj plan
   mp@draghi5 
   mp@draghi10
+  mp@draghi20
 endmap
 
 map ms5_10 -proj extended
   ms@draghi5 
   ms@draghi10
+  ms@draghi20
 endmap
 
 
@@ -111,6 +119,7 @@ map mp -proj plan
   mp1_11
   mp2_3 
   mp@draghi4 [0 50 m] above
+  mp@draghi22 [0 50 m] above
   mp5_10 [0 -50 m] below
   mp@draghi6
   mp8_9
@@ -125,6 +134,7 @@ map ms -proj extended
   ms2_3
   msc1
   ms@draghi4 [20 20 m] below
+  ms@draghi22 [20 20 m] below
   ms5_10
   ms@draghi6 [10 10 m] below
   ms8_9

@@ -19,6 +19,9 @@ input draghi14/draghi14.th # sfortune
 input draghi16/draghi16.th # freatici
 input draghi18/abc.th           # abc
 input draghi19/draghi19.th  # freatici dietro cb -850
+input draghi20/draghi20.th  # finale revolution
+input draghi21/draghi21.th  # 
+input draghi22/draghi22.th  #
 
 equate 0@draghi16  34@draghi13
 equate 6@draghi11  22@draghi1 # chiusura anello sala
@@ -38,6 +41,9 @@ equate draghi2_15@draghi14 15@draghi2
 equate sfo19@draghi14 36@draghi2
 equate 31@draghi18 29@draghi2
 equate 0@draghi19 13@draghi16
+equate 0@draghi20 29@draghi10
+equate 0@draghi21 15@draghi1
+equate 25@draghi22 4@draghi4
 
 input draghi.th2
 

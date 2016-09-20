@@ -1,0 +1,37 @@
+encoding  utf-8
+# Punto Lunghezza Orientamento verso N Inclinazione Larghe SX zza DX H in alto h in basso Annotazioni
+
+survey draghi20 -title "fine revolution"
+
+centerline
+
+date 2016.08.09
+team "Uries R."
+
+data normal from to length compass clino left right up down
+
+extend right
+0  R1  5.43 225.2  -6.9 0    0.4  0.8  6.2  # Il punto 0 rappresenta inizio strettoia, ultimo punto di Corvo
+R1 R2  5.37 236.8 -55.2 0    0.35 4.2  1.6  # Cascatella di 6 metri che parte in strettoia
+R2 R3  4.79 227.5  -9.9 0.7  0    2.8  1.7 
+R3 R4  2.46 162.6 -33.4 0    0.48 2.7  6.65 # Saltino da circa 2.5 metri
+R4 R5 12.37 216.3 -45.9 0    1.1 10.6  1.8  # Salto terrazzato (3.5 metri + 6 metri) 
+R5 R6  1.09 315.3  -0.9 1.2  0   10.6  1.85 # Sopra R6 c'è un camino da rivedere 
+R6 R7  7.63 214.6 -14.2 0.4  0    1.2  1.0  # Questo tiro è nella galleria stretta, il punto R7 non segnato con vernice
+
+# Tutte le larghezze ed altezze fanno riferimento alla partenza del caposaldo (esempio R2-R3) fanno riferimento al R2
+
+endcenterline
+
+input p1b.th2
+input s1b.th2
+
+map mp -proj plan
+   p1
+endmap
+map ms -proj extended
+   s1
+endmap
+
+endsurvey
+

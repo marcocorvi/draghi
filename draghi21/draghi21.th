@@ -1,0 +1,224 @@
+# 2016.09.20 created by TopoDroid v 3.1.6d
+
+survey draghi21 -title "draghi_ramo_ix"
+    # Ramo in risalita da caposaldo in fondo a prima sala 
+
+  centerline
+    date 2016.06.11 
+    # team Leonardo Piccini, Paola Pierinami 
+    # declination 0.00 degrees
+    units length meters
+    units compass clino degrees
+    data normal from to length compass clino
+    extend left
+    0 1 5.97 274.2 30.1
+    extend right
+    1 2 7.37 92.3 63.6
+    2 3 3.06 75.4 -5.3
+    2 - 0.62 162.0 -5.6
+    2 - 1.36 179.5 76.9
+    extend left
+    2 - 8.88 323.5 -87.0
+    extend right
+    3 4 3.89 82.2 3.2
+    3 - 0.15 159.3 0.5
+    extend left
+    3 - 0.37 350.2 10.0
+    extend right
+    3 - 0.58 89.1 80.4
+    extend left
+    3 - 1.34 334.4 -82.1
+    extend right
+    3 - 3.11 60.7 -28.9
+    3 - 2.94 60.5 -29.3
+    4 5 2.93 60.4 -29.1
+    4 - 0.17 167.0 18.9
+    extend left
+    4 - 0.59 347.0 12.1
+    4 - 1.09 272.1 87.7
+    4 - 0.59 332.8 -74.2
+    extend right
+    5 6 3.40 89.8 53.0
+    5 - 0.89 175.4 11.8
+    5 - 0.17 1.9 14.2
+    extend left
+    5 - 0.76 220.2 73.0
+    extend right
+    5 - 0.29 104.3 -71.8
+    6 7 3.56 64.4 -8.8
+    5 - 3.57 64.2 -8.9
+    6 - 0.16 154.0 12.0
+    extend left
+    6 - 0.62 327.5 8.0
+    extend right
+    6 - 0.39 20.9 70.8
+    extend left
+    6 - 0.53 346.2 -81.2
+    extend right
+    7 8 2.08 75.6 -5.0
+    7 - 0.53 157.8 1.5
+    extend left
+    7 - 0.15 339.6 18.8
+    extend right
+    7 - 0.26 146.3 71.9
+    7 - 0.66 14.5 -80.2
+    8 9 2.60 95.0 28.7
+    extend left
+    8 - 0.35 183.5 4.8
+    8 - 0.15 349.2 6.3
+    extend right
+    8 - 1.10 146.1 86.6
+    extend left
+    8 - 0.40 278.4 -82.8
+    extend right
+    9 10 3.79 87.2 30.9
+    9 - 0.18 156.8 3.9
+    9 - 1.07 6.5 8.9
+    9 - 0.58 44.4 77.2
+    9 - 0.78 76.4 -83.9
+    10 11 2.23 70.6 8.5
+    10 - 0.14 158.0 11.5
+    10 - 0.81 10.8 -3.2
+    10 - 6.23 19.1 80.4
+    extend left
+    10 - 0.62 210.8 -89.2
+    extend right
+    11 12 3.96 74.9 -11.4
+    11 - 1.26 160.6 6.8
+    extend left
+    11 - 0.20 338.9 11.6
+    extend right
+    11 - 3.55 149.9 73.4
+    11 - 1.21 100.9 -82.0
+    12 13 1.95 65.5 -22.4
+    12 - 0.29 166.4 2.8
+    extend left
+    12 - 0.18 351.5 18.0
+    extend right
+    12 - 4.22 168.0 84.0
+    extend left
+    12 - 1.20 332.9 -84.6
+    extend right
+    13 14 1.89 131.9 26.8
+    extend left
+    13 - 0.58 195.9 3.5
+    extend right
+    13 - 0.22 18.0 10.3
+    extend left
+    13 - 1.62 184.6 72.6
+    13 - 1.14 207.4 -79.0
+    extend right
+    14 15 2.66 72.1 -2.4
+    extend left
+    14 - 0.57 359.9 -1.5
+    extend right
+    14 - 0.16 168.1 16.9
+    14 - 6.60 72.1 81.3
+    14 - 2.43 20.2 -81.9
+    15 16 5.16 94.6 -32.3
+    extend left
+    15 - 0.15 355.8 41.4
+    extend right
+    15 - 0.24 178.9 -2.4
+    15 - 3.43 169.9 79.3
+    15 - 1.50 88.3 -84.3
+    extend left
+    16 17 2.49 211.2 -49.4
+    16 - 1.24 315.9 15.4
+    extend right
+    16 - 0.28 138.0 4.2
+    extend left
+    16 - 2.49 248.1 81.0
+    16 - 1.27 250.9 -73.3
+    extend right
+    17 18 3.15 78.2 -37.7
+    17 - 1.06 26.3 9.2
+    extend left
+    17 - 0.30 184.9 14.0
+    extend right
+    17 - 0.66 40.4 75.0
+    17 - 2.90 73.8 -80.8
+    18 19 9.00 114.4 -74.3
+    extend left
+    18 - 0.85 191.4 0.3
+    extend right
+    18 - 0.14 12.2 20.8
+    18 - 3.10 157.0 79.8
+    18 - 10.18 135.6 -81.0
+    19 20 3.30 59.8 22.7
+    extend left
+    19 - 1.36 355.2 3.3
+    19 - 0.33 202.0 32.7
+    19 - 9.69 322.8 79.3
+    extend right
+    19 - 1.65 12.3 -79.4
+    20 21 6.13 91.7 2.6
+    20 - 1.13 165.5 3.9
+    extend left
+    20 - 0.30 329.4 21.7
+    extend right
+    20 - 10.88 94.2 81.4
+    20 - 1.77 141.7 -79.8
+    20 - 1.25 59.9 10.2
+    9 22 2.00 56.4 7.8
+    extend left
+    21 - 5.69 282.1 60.7
+    22 23 5.23 281.5 61.3
+    22 - 1.44 290.6 -5.5
+    extend right
+    22 - 1.48 65.2 0.9
+    extend left
+    22 - 10.60 351.6 81.8
+    extend right
+    22 - 4.07 0.1 -63.4
+    22 - 1.75 61.5 -0.7
+    22 - 2.59 40.2 0.3
+    22 - 4.06 18.5 -5.1
+    extend left
+    22 - 3.51 351.5 -3.9
+    22 - 2.90 325.0 -16.2
+    22 - 5.93 347.4 -38.9
+    extend right
+    22 - 5.31 17.1 -45.0
+    22 - 4.28 25.9 -63.4
+    extend left
+    22 - 4.57 342.0 -50.0
+    extend right
+    23 24 6.95 117.4 74.9
+    extend left
+    23 - 1.68 349.8 -0.3
+    extend right
+    23 - 0.88 133.9 18.8
+    23 - 7.40 50.8 75.4
+    23 - 2.92 100.0 -75.3
+    23 - 2.38 21.7 7.4
+    extend left
+    23 - 2.36 349.2 -1.3
+    extend right
+    23 - 6.06 57.5 -4.9
+    extend left
+    23 - 4.38 263.4 49.4
+    24 25 7.85 272.6 77.2
+    24 - 2.50 315.6 16.7
+    extend right
+    24 - 1.07 103.9 10.0
+    extend left
+    24 - 0.27 325.7 85.4
+    24 - 0.28 338.1 85.1
+    extend right
+    24 - 0.16 74.2 -71.4
+    extend left
+    24 - 9.14 342.9 -84.6
+  endcenterline
+
+  input "draghi_ramo_ix-DRAGHI.IXp.th2"
+  input "draghi_ramo_ix-DRAGHI.IXs.th2"
+
+  map mp -projection plan
+    draghi_ramo_ix-DRAGHI.IXp
+  endmap
+  map ms -projection extended
+    draghi_ramo_ix-DRAGHI.IXs
+  endmap
+
+endsurvey
